@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.secao-banner {
+    background-image: url(../assest/banner-topo.jpg);
+}
+
+secao-banner h1, h2, h3{
+    color: #3c184e;
+}
+
