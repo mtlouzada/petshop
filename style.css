@@ -5,7 +5,7 @@
 }
 
 .secao-banner {
-    background-image: url(../assest/banner-topo.jpg);
+    position: relative;
 }
 
 secao-banner h1, h2, h3{
