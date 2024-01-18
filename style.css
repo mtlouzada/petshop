@@ -12,3 +12,20 @@ secao-banner h1, h2, h3{
     color: #3c184e;
 }
 
+.logo {
+    display: flex;
+    max-width: 250px;
+    font-size: 35px;
+}
+
+.logo h2{
+    font-size: 14px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.logo h1 {
+    color: #3c184e;
+}
