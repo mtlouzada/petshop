@@ -2,30 +2,260 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+
+/* estilização do container com a logo, e a imagem de fundo da seção banner*/
 
 .secao-banner {
     position: relative;
+    background-image: url(./assest/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 120px 80px;
 }
 
-secao-banner h1, h2, h3{
+secao-banner h1, p{
     color: #3c184e;
 }
 
 .logo {
     display: flex;
+    flex-direction: column;
     max-width: 250px;
-    font-size: 35px;
+    align-items: center;
 }
 
-.logo h2{
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan img{
+    max-width: 30px;
+    max-height: 30px;
+
+}
+
+.paragrafo-1 {
+    font-size: 35px;
+    margin: 5px;
+}
+
+.paragrafo-2 {
     font-size: 14px;
 }
 
-.logo img {
-    width: 30px;
+
+/*container com o titulo, ainda dentro da seção banner*/
+.container-titulo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+
 }
 
-.logo h1 {
+.container-titulo h1 {
+    font-size: 60px;
     color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+
+.container-titulo p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-titulo a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.img-wpp {
+    width: 20px;
+}
+
+
+
+
+/*seção serviços*/
+
+.secao-servicos {
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.secao-servicos h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 45px;
+}
+
+.secao-servicos ul {
+    max-width: 800px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    color: #3c184e;
+    list-style-type: square;
+}
+
+ .secao-servicos li {
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+
+ }
+
+.secao-servicos span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.secao-galeria {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.secao-galeria img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.secao-faixa {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    align-items: center;
+}
+
+.container-paragrafo p {
+    max-width: 800px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.container-paragrafo span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container-redessociais {
+    text-align: center;
+}
+
+.container-redessociais a {
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.container-redessociais img {
+    width: 50px;
+    height: 50px;
+}
+
+.secao-marcas {
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.secao-marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 45px;
+}
+
+.galeria-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.galeria-marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+.secao-mapa{
+    width: 100%;
+    padding: 120px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-mapa h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 45px;
+}
+
+.secao-mapa p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 45px;
+}
+
+.secao-rodape {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+.secao-rodape p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.secao-rodape a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
 }
